@@ -218,6 +218,8 @@ ol {
 .content__list {
   inline-size: 100%;
   block-size: 298px;
+  display: flex;
+  flex-direction: column;
   overflow: hidden scroll;
   position: relative;
 }
@@ -231,6 +233,7 @@ ol {
   text-decoration: none;
   display: block;
   cursor: pointer;
+  margin: 3px;
 }
 
 .content__video-card {
@@ -239,6 +242,7 @@ ol {
 }
 
 .content__video-card-description-container {
+  min-width: 200px;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -253,8 +257,8 @@ ol {
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
+  padding-right: 5px;
   text-overflow: ellipsis;
-  width: 170px;
 }
 
 .content__video-card-description {
@@ -272,7 +276,8 @@ ol {
 /* end list */
 
 .more-button {
-  width: 100%;
+  width: 98%;
+  margin: 3px;
 }
 
 /* end details */
